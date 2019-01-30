@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/FACK1/Compare-shirts#readme",
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
