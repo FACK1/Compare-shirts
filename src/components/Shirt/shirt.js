@@ -17,6 +17,7 @@ class Shirt extends Component {
   }
 
 
+
     render() {
         return (<div className={this.state.style} onClick={this.onShirtClick}>
             <img src={this.props.imageUrl} />
