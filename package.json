@@ -7,7 +7,7 @@
     "dev": "parcel public/index.html",
     "build": "parcel build public/index.html",
     "eslint": "eslint ./src/",
-    "eslint:fix": "eslint ./src/"
+    "eslint:fix": "eslint --fix ./src/"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "eslint": "^5.12.1",
     "eslint-config-airbnb": "^17.1.0",
@@ -34,6 +35,7 @@
     "parcel-bundler": "^1.11.0"
   },
   "dependencies": {
+    "eslint-config-react-minimal": "^1.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   }

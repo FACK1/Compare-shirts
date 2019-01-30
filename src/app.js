@@ -1,9 +1,12 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import Header from './components/Header/header';
 
 class App extends Component {
-    render() {
-        return <h1> Hello world!</h1>;
-    }
+  render() {
+    return (
+      <Header />
+    );
+  }
 }
 
 export default App;
