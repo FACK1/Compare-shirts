@@ -2,9 +2,7 @@ import React from 'react';
 import './header.css';
 
 
-const Header =()=>{
-  return (
-    < div className='header'>Compare Shirts</div>
-  )
-}
+const Header = () => (
+  <div className="header">Compare Shirts</div>
+);
 export default Header;
