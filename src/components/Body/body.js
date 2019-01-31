@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from '../Header/header';
 import Shirts from '../Shirts/shirts';
 import Table from '../Table/table';
+import './body.css';
 
 
 class Body extends Component {
@@ -22,7 +23,7 @@ class Body extends Component {
 
   render() {
     return (
-<React.Fragment>
+<React.Fragment className="react-frgment">
 <Header />
 <Shirts selectShirt={this.selectShirt} />
 <Table selectedShirts={this.state.selectedShirts}/>
