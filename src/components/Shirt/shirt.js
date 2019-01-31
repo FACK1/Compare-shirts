@@ -7,16 +7,18 @@ class Shirt extends Component {
     super(props);
     this.state = {
       style: 'shirt-card'
-    }
+    };
     this.onShirtClick = this.onShirtClick.bind(this);
   }
 
   onShirtClick(){
-    this.props.selectShirt({label: this.props.shirtTitle, price: this.props.shirtPrice});
-    this.setState({ style: 'selected-shirt-card' });
+    const selected = this.props.selectShirt({label: this.props.shirtTitle, price: this.props.shirtPrice});
+    if(selected){
+        this.setState({ style: 'selected-shirt-card' });
+    } else {
+        this.setState({ style: 'shirt-card' });
+    }
   }
-
-
 
     render() {
         return (<div className={this.state.style} onClick={this.onShirtClick}>
