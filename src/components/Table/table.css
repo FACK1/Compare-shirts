@@ -1,8 +1,27 @@
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  background-color: #D7EDF7;
+.table{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+ border-collapse: collapse;
+ width: 100%;
+ margin-top: 20px;
+ width: 90%;
+ margin: 20px 5% 20px 5%;
+
 }
-th, td {
-  padding: 15px;
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #BACADD;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #57A6D7;
+  color: white;
+  font-weight: bold;
 }

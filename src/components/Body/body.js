@@ -30,11 +30,11 @@ class Body extends Component {
 
   render() {
     return (
-<React.Fragment className="react-frgment">
+<div id="container">
 <Header />
 <Shirts selectShirt={this.selectShirt} />
 <Table selectedShirts={this.state.selectedShirts}/>
-</React.Fragment>
+</div>
     );
   }
 }

@@ -22,8 +22,8 @@ class Table extends Component {
       return (
           <table className="table">
               <thead>
-                <th>label</th>
-                <th>price</th>
+                <th>Label</th>
+                <th>Price</th>
               </thead>
               {this.bindData()}
               </table>
