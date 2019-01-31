@@ -56,9 +56,8 @@ Compare-shirts
 |__ README.md
 ```
 # Team :
-***
 1. Mohammad ALsharef
-2.safa amro
+2. safa amro
 
 # Components:
 1. Header
