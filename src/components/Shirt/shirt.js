@@ -12,8 +12,12 @@ class Shirt extends Component {
   }
 
   onShirtClick(){
-    this.props.selectShirt({label: this.props.shirtTitle, price: this.props.shirtPrice});
-    this.setState({ style: 'selected-shirt-card' });
+    const selected = this.props.selectShirt({label: this.props.shirtTitle, price: this.props.shirtPrice});
+    if(selected){
+        this.setState({ style: 'selected-shirt-card' });
+    } else {
+        this.setState({ style: 'shirt-card' });
+    }
   }
 
 
