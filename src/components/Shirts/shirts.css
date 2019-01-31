@@ -1,3 +1,6 @@
 .shirts-list{
 display:flex;
+background-color:#D7EDF7;
+justify-content:space-around;
+
 }

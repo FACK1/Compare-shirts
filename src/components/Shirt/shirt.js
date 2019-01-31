@@ -23,8 +23,8 @@ class Shirt extends Component {
     render() {
         return (<div className={this.state.style} onClick={this.onShirtClick}>
             <img src={this.props.imageUrl} />
-            <p>{this.props.shirtTitle}</p>
-            <p>{this.props.shirtPrice}</p>
+             <p className="paragraph">  {this.props.shirtTitle}</p>
+             <p className="paragraph1"> Price:{this.props.shirtPrice} $</p>
         </div>);
     }
 }
