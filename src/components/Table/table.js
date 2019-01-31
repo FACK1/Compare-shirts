@@ -18,16 +18,17 @@ class Table extends Component {
       });
   }
 
-render() {
-  return (
-  <table className="table">
-    <thead>
-      <th>label</th>
-      <th>price</th>
-    </thead>
-      {this.bindData()}
-  </table>
-);
-}
+    render() {
+      return (
+          <table className="table">
+              <thead>
+                <th>label</th>
+                <th>price</th>
+              </thead>
+              {this.bindData()}
+              </table>
+      );
+  }
+
 }
 export default Table;
