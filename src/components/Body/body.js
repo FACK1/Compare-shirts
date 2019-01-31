@@ -17,7 +17,14 @@ class Body extends Component {
 
 
   selectShirt(shirt) {
-    this.setState({ selectedShirts: this.state.selectedShirts.concat([shirt]) });
+    const selected = (this.state.selectedShirts).find((selectedShirt) => JSON.stringify(selectedShirt) === JSON.stringify(shirt));
+    if(!selected){
+        this.setState({ selectedShirts: this.state.selectedShirts.concat([shirt]) });
+        return true;
+    } else {
+        this.setState({ selectedShirts: (this.state.selectedShirts).filter((selectedShirt) => !(JSON.stringify(selectedShirt) === JSON.stringify(shirt))) });
+        return false;
+    }
   }
 
   render() {
