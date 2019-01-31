@@ -25,7 +25,7 @@ class Body extends Component {
 <React.Fragment>
 <Header />
 <Shirts selectShirt={this.selectShirt} />
-<Table />
+<Table selectedShirts={this.state.selectedShirts}/>
 </React.Fragment>
     );
   }
