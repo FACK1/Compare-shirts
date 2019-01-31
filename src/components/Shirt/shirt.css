@@ -1,9 +1,9 @@
 .shirt-card {
-    width: 30%;
-
+    width: 20%;
    background-color: #D7EDF7;
    /* margin-right: 50px; */
      border: 2px solid #1884C3;
+    margin-top: 20px;
 }
 
 
@@ -15,9 +15,10 @@
 }
 
 .selected-shirt-card {
-  width: 30%;
+  width: 20%;
   border: 2px solid #1884C3;
   background-color: #57A6D7;
+    margin-top: 20px;
 }
 
 .selected-shirt-card img {
@@ -25,6 +26,7 @@
   margin: 4px 1% 20px 1%;
   /* border: 5px solid #1884C3; */
 }
+
 .paragraph{
 color: #1884C3;
 font-size: 25px;
@@ -38,4 +40,24 @@ font-weight: bold;
   font-size: 25px;
   text-align:center;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 750px) {
+    .shirt-card {
+        width: 40%;
+
+        background-color: #D7EDF7;
+        /* margin-right: 50px; */
+        border: 2px solid #1884C3;
+        margin-top: 20px;
+    }
+
+
+    .selected-shirt-card {
+        width: 40%;
+        border: 2px solid #1884C3;
+        background-color: #57A6D7;
+        margin-top: 20px;
+    }
+
 }
