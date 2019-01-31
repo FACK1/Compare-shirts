@@ -2,7 +2,8 @@
 ***
 (Week13 Project/React/ Compare shirts)
 ***
-[Compare Shirts](https://gallant-curie-e4f925.netlify.com/)
+ Website Link :
+ [Compare Shirts](https://gallant-curie-e4f925.netlify.com/)
 ***
 #  Whats your app
 Our site displays pictures of our existing shirts and display their own brand and price and when pressed it displays the information about the image in a table and if we click on another image also displayed in the table
