@@ -7,7 +7,7 @@ class Shirt extends Component {
     super(props);
     this.state = {
       style: 'shirt-card'
-    }
+    };
     this.onShirtClick = this.onShirtClick.bind(this);
   }
 
@@ -19,8 +19,6 @@ class Shirt extends Component {
         this.setState({ style: 'shirt-card' });
     }
   }
-
-
 
     render() {
         return (<div className={this.state.style} onClick={this.onShirtClick}>
